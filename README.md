@@ -2,9 +2,9 @@
 
 ## **Description**
 
-* Detect motions.
+* Detects motions.
 * Blinks with LEDs.
-* Play soud file while LEDs are blinking.
+* Plays sound file while LEDs are blinking.
 
 ## **Datasheet**
 ![datasheet](/datasheet.jpg?raw=true)
