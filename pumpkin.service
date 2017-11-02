@@ -1,0 +1,17 @@
+[Unit]
+Description=Pumpkin
+After=systemd-user-sessions.service plymouth-quit-wait.service
+After=rc-local.service
+
+Before=getty.target
+IgnoreOnIsolate=yes
+
+[Service]
+ExecStart=/home/pi/app.py
+Type=simple
+Restart=always
+RestartSec=0
+
+
+[Install]
+WantedBy=multi-user.target
