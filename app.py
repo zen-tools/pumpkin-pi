@@ -61,7 +61,6 @@ class MainApp:
                     time.sleep(0.5)
                     GPIO.output(self.GPIO_LED, GPIO.LOW)
                     time.sleep(0.5)
-                    continue
                 # Record previous state
                 Previous_State = 1
             elif Current_State == 0 and Previous_State == 1:
